@@ -1,0 +1,34 @@
+PART 3 — FINAL ACTIONS THE STUDENT MUST COMPLETE
+
+1. FORMSPREE (required for automatic AJAX email delivery)
+- Visit https://formspree.io/ and create an account using an email address you control.
+- Create a new form and verify the destination email if prompted.
+- Your form endpoint is already configured in js/main.js: https://formspree.io/f/mwllrqga
+- The endpoint has been inserted in js/main.js: https://formspree.io/f/mwllrqga
+- Verify the destination email address in Formspree, then test both the enquiry and contact forms on the deployed website. Confirm each submission appears in Formspree and arrives in the inbox.
+
+2. EXACT MAP PIN
+- The address supplied is 229 Monument Road, Kempton Park. The current map pin is only an approximate nearby Monument Road reference.
+- Get the exact latitude and longitude for the salon entrance from the owner or a verified map pin.
+- Replace the two values in const salonCoordinates = [LATITUDE, LONGITUDE] in js/map.js. Do not present the approximate point as an exact entrance.
+
+3. GITHUB COMMITS (the ZIP cannot create these for you)
+Open a terminal in the project folder and run these commands, one commit after each meaningful completed change:
+  git status
+  git add contact.html enquiry.html js/main.js js/map.js
+  git commit -m "Part 3: update salon address and AJAX form integration"
+  git add README.md changelog.txt references.txt robots.txt sitemap.xml GITHUB_AND_FORMS_SETUP.txt
+  git commit -m "Part 3: document feedback corrections and SEO setup"
+  git push
+If Git says there is no remote, connect the correct GitHub repository first. Do not claim a push succeeded until Git confirms it.
+
+4. DEPLOYMENT
+- Deploy the project root to Netlify or GitHub Pages.
+- Copy the actual public website URL.
+- Replace REPLACE-WITH-YOUR-LIVE-DOMAIN in robots.txt and sitemap.xml with that domain (without adding a second https://).
+- Commit and push the updated SEO files, then redeploy.
+- Open every page on the live site and test links, images, map and both forms.
+
+5. REFERENCES
+- Confirm the original creator/source URL and licence for every image not created by you. Add these details to references.txt.
+- Use the IIE Harvard guide supplied by your lecturer to check punctuation and formatting.

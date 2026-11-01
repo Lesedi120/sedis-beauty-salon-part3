@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Beauty Gallery | Sedi's Beauty Salon</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Lesedi Dibakoane">
+<meta name="keywords" content="beauty salon Kempton Park, hair installation, lace frontal, knotless braids, silk press, makeup, nail art, eyebrow shaping, bridal beauty, salon bookings Gauteng">
+<link rel="icon" href="images/salon-logo.jpeg" type="image/jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<meta name="description" content="Browse Sedi's Beauty Salon hair, makeup, nail and salon inspiration gallery. Open images in the responsive lightbox to view them at a larger size.">
+
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Sedi's Beauty Salon home"><img src="images/salon-logo.jpeg" alt="Sedi's Beauty Salon logo" width="70" height="70"><span><strong>Sedi's Beauty Salon</strong><small>Where Beauty Meets Elegance</small></span></a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">☰ <span class="sr-only">Toggle navigation</span></button>
+  <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="enquiry.html">Enquiry</a><a href="contact.html">Contact</a>
+  </nav>
+</header>
+<main id="main" class="page-shell">
+<section class="page-intro"><p class="eyebrow">THE GALLERY</p><h1>Looks, details & inspiration</h1><p>Select any image to open the accessible lightbox. Use the arrow keys to move between images and Escape to close.</p></section><div class="gallery-grid" id="full-gallery">
+<button class="gallery-item" type="button" data-lightbox="images/hair-installation.jpeg" data-alt="Hair installation service inspiration"><img src="images/hair-installation.jpeg" alt="Hair installation service inspiration at Sedi's Beauty Salon" loading="lazy"><span>Hair installation</span></button>
+<button class="gallery-item" type="button" data-lightbox="images/salon-interior.jpeg" data-alt="Beauty salon interior inspiration"><img src="images/salon-interior.jpeg" alt="Beauty salon interior ready for appointments" loading="lazy"><span>Salon atmosphere</span></button>
+<button class="gallery-item" type="button" data-lightbox="images/glam-makeup.jpeg" data-alt="Glam makeup service inspiration"><img src="images/glam-makeup.jpeg" alt="Glam makeup service inspiration" loading="lazy"><span>Makeup</span></button>
+<button class="gallery-item" type="button" data-lightbox="images/luxury-nails.jpeg" data-alt="Luxury nail art inspiration"><img src="images/luxury-nails.jpeg" alt="Luxury nail art inspiration" loading="lazy"><span>Nail art</span></button>
+</div><p class="small-note center">Use only images you own or are licensed to use; cite image sources in the README and references file.</p>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Image viewer" hidden><button type="button" class="lightbox-close" aria-label="Close image viewer">×</button><button type="button" class="lightbox-prev" aria-label="Previous image">‹</button><figure><img id="lightbox-image" src="" alt=""><figcaption id="lightbox-caption"></figcaption></figure><button type="button" class="lightbox-next" aria-label="Next image">›</button><p class="lightbox-help">Use ← / → to navigate and Esc to close</p></div>
+</main>
+<footer class="site-footer"><div><strong>Sedi's Beauty Salon</strong><p>Kempton Park, Gauteng, South Africa</p><p>Demo contact details from the Part 2 project — verify them before publishing.</p></div><p>© <span id="current-year">2026</span> Sedi's Beauty Salon. All rights reserved.</p></footer>
+<script src="js/main.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Service Enquiry | Sedi's Beauty Salon</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="author" content="Lesedi Dibakoane">
+<meta name="keywords" content="beauty salon Kempton Park, hair installation, lace frontal, knotless braids, silk press, makeup, nail art, eyebrow shaping, bridal beauty, salon bookings Gauteng">
+<link rel="icon" href="images/salon-logo.jpeg" type="image/jpeg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<meta name="description" content="Send Sedi's Beauty Salon a service enquiry with your contact details, preferred service, date and message. The form validates required information and submits your enquiry through the configured form service.">
+
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <a class="brand" href="index.html" aria-label="Sedi's Beauty Salon home"><img src="images/salon-logo.jpeg" alt="Sedi's Beauty Salon logo" width="70" height="70"><span><strong>Sedi's Beauty Salon</strong><small>Where Beauty Meets Elegance</small></span></a>
+  <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">☰ <span class="sr-only">Toggle navigation</span></button>
+  <nav id="primary-nav" class="primary-nav" aria-label="Main navigation">
+    <a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">Services</a><a href="gallery.html">Gallery</a><a href="enquiry.html">Enquiry</a><a href="contact.html">Contact</a>
+  </nav>
+</header>
+<main id="main" class="page-shell">
+<section class="page-intro"><p class="eyebrow">LET'S PLAN YOUR LOOK</p><h1>Service enquiry</h1><p>Tell us what you are interested in. Required fields are marked and checked before your message is submitted.</p></section><section class="form-layout"><div class="form-card"><form id="enquiry-form" data-form-type="enquiry" novalidate><div class="form-grid"><div class="field"><label for="enquiry-name">Full name <span>*</span></label><input id="enquiry-name" name="name" type="text" autocomplete="name" minlength="2" maxlength="80" required aria-describedby="enquiry-name-error"><small class="field-error" id="enquiry-name-error"></small></div><div class="field"><label for="enquiry-email">Email address <span>*</span></label><input id="enquiry-email" name="email" type="email" autocomplete="email" maxlength="120" required aria-describedby="enquiry-email-error"><small class="field-error" id="enquiry-email-error"></small></div><div class="field"><label for="enquiry-phone">Phone number <span>*</span></label><input id="enquiry-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="e.g. 071 234 5678" pattern="[0-9+() -]{7,20}" required aria-describedby="enquiry-phone-error"><small class="field-error" id="enquiry-phone-error"></small></div><div class="field"><label for="enquiry-service">Service of interest <span>*</span></label><select id="enquiry-service" name="service" required aria-describedby="enquiry-service-error"><option value="">Choose a service</option><option>Hair Installation</option><option>Knotless Braids</option><option>Blow Out & Silk Press</option><option>Eyebrow Tint & Shaping</option><option>Luxury Nails</option><option>Glam Makeup</option><option>Hair Treatment</option><option>Bridal Package</option><option>Other / not sure yet</option></select><small class="field-error" id="enquiry-service-error"></small></div><div class="field"><label for="enquiry-date">Preferred appointment date</label><input id="enquiry-date" name="date" type="date" aria-describedby="enquiry-date-error"><small class="field-error" id="enquiry-date-error"></small></div><div class="field"><label for="enquiry-budget">Approximate budget (ZAR)</label><select id="enquiry-budget" name="budget"><option value="">Choose a budget (optional)</option><option>Under R250</option><option>R250–R500</option><option>R501–R850</option><option>Over R850</option><option>Need advice</option></select></div><div class="field field-full"><label for="enquiry-message">Tell us more <span>*</span></label><textarea id="enquiry-message" name="message" rows="5" minlength="10" maxlength="1200" required placeholder="Describe the style you want, preferred time, or questions…" aria-describedby="enquiry-message-error"></textarea><small class="field-error" id="enquiry-message-error"></small><small class="character-count"><span id="message-count">0</span>/1200 characters</small></div><div class="field field-full checkbox-field"><input id="enquiry-consent" name="consent" type="checkbox" required aria-describedby="enquiry-consent-error"><label for="enquiry-consent">I agree that the details I provide may be used to respond to this enquiry. <span>*</span></label><small class="field-error" id="enquiry-consent-error"></small></div></div><div class="form-actions"><button class="button button-gold" type="submit">Send enquiry</button><button class="button button-outline" type="reset">Clear form</button></div><p id="enquiry-status" class="form-status" role="status" aria-live="polite">Complete the required fields to submit your enquiry.</p></form></div><aside class="side-note"><h2>What happens next?</h2><ol><li>Complete the required fields.</li><li>JavaScript checks your information and highlights anything to correct.</li><li>When the Formspree endpoint is configured, your enquiry is submitted securely in the background and a confirmation is displayed.</li></ol><p><strong>Note:</strong> The project includes a Formspree integration point. Automatic delivery will only work after the owner creates a Formspree account, adds the real form endpoint in <code>js/main.js</code>, and tests delivery.</p></aside></section>
+</main>
+<footer class="site-footer"><div><strong>Sedi's Beauty Salon</strong><p>Kempton Park, Gauteng, South Africa</p><p>Demo contact details from the Part 2 project — verify them before publishing.</p></div><p>© <span id="current-year">2026</span> Sedi's Beauty Salon. All rights reserved.</p></footer>
+<script src="js/main.js" defer></script>
+
+</body>
+</html>
