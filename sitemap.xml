@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <!-- Replace the example domain after deployment; submit the live sitemap to search engines. -->
-  <url><loc>https://REPLACE-WITH-YOUR-LIVE-DOMAIN/</loc></url>
-  <url><loc>https://REPLACE-WITH-YOUR-LIVE-DOMAIN/about.html</loc></url>
-  <url><loc>https://REPLACE-WITH-YOUR-LIVE-DOMAIN/services.html</loc></url>
-  <url><loc>https://REPLACE-WITH-YOUR-LIVE-DOMAIN/gallery.html</loc></url>
-  <url><loc>https://REPLACE-WITH-YOUR-LIVE-DOMAIN/enquiry.html</loc></url>
-  <url><loc>https://REPLACE-WITH-YOUR-LIVE-DOMAIN/contact.html</loc></url>
+  <url><loc>https://6ae868d31e4c5221dfa01757--monumental-choux-2ca8de.netlify.app/</loc></url>
+  <url><loc>https://6ae868d31e4c5221dfa01757--monumental-choux-2ca8de.netlify.app/index.html</loc></url>
+  <url><loc>https://6ae868d31e4c5221dfa01757--monumental-choux-2ca8de.netlify.app/about.html</loc></url>
+  <url><loc>https://6ae868d31e4c5221dfa01757--monumental-choux-2ca8de.netlify.app/contact.html</loc></url>
+  <url><loc>https://6ae868d31e4c5221dfa01757--monumental-choux-2ca8de.netlify.app/enquiry.html</loc></url>
+  <url><loc>https://6ae868d31e4c5221dfa01757--monumental-choux-2ca8de.netlify.app/gallery.html</loc></url>
 </urlset>

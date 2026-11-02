@@ -1,5 +1,4 @@
 User-agent: *
 Allow: /
 
-# Replace the example domain after the site is deployed.
-Sitemap: https://REPLACE-WITH-YOUR-LIVE-DOMAIN/sitemap.xml
+Sitemap: https://6ae868d31e4c5221dfa01757--monumental-choux-2ca8de.netlify.app/sitemap.xml
